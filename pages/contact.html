@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta ="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Document</title>
+
+
+
+
+	<link rel="stylesheet" href="../src/css/main.css">
+	<script type="text/javascript" src="../src/js/jquery-1.4.1.min.js" defer></script>
+	<script src="../src/js/app.js" defer></script>
+
+</head>
+<body>
+
+    <div class="header">
+        <div class="header__wrapper">   
+            <div class="header__nav-wrapper">
+            <div class="header__logo">
+               <a href="../index.html" class="transition">Moloko</a>
+            </div>
+            <ul class="header__list" >
+                <li><a href="../src/index.html" class="transition" class="header__list-link">About</a> <hr /></li>
+                <li> <a href="../pages/gallery.html" class="transition" class="header__list-link">Gallery</a> <hr /></li>
+                <li> <a href="#" class="header__list-link">Contact</a> <hr /></li>
+               
+               
+            </ul>
+            </div>
+			<div className="header__social">
+                <a href="#" className="header__social-link">
+                    <img src='../src/img/instagram.svg' alt="instagram" class="header__social-img">
+                </a>
+       			</div>
+    </div>
+	</div>
+
+    <div class="contact__form">
+        <section class="get-in-touch">
+            <h1 class="title">Contact me</h1>
+            <form action="../mail.php" method="POST" class="contact-form row">
+               <div class="form-field col x-50">
+                  <input id="name" name="user_name" class="input-text js-input not-empty" type="text" required>
+                  <label class="label" for="name">Name</label>
+               </div>
+               <div class="form-field col x-50">
+                  <input id="email" name="user_email" class="input-text js-input not-empty"" type="email" required>
+                  <label class="label" for="email">E-mail</label>
+               </div>
+               <div class="form-field col x-100">
+                  <input id="message" name="user_message" class="input-text js-input not-empty"" type="text" required>
+                  <label class="label" for="message">Message</label>
+               </div>
+               <div class="form-field col x-100 align-center">
+                  <input class="submit-btn" type="submit" value="Submit">
+               </div>
+            </form>
+         </section>
+        
+    </div>
+    
+</body>
+</html>
